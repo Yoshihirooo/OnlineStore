@@ -1,0 +1,92 @@
+
+.cor{
+    /*background: rgb(0,104,255);
+    background: linear-gradient(90deg, rgba(0,104,255,1) 0%, rgba(128,220,255,1) 35%, rgba(0,212,255,1) 100%);*/
+
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(70,70,70,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+
+body{
+    background-color: #242424;
+    color:white;
+}
+
+.center{
+    display: block;
+    text-align: center;
+}
+
+.shade{
+    box-shadow: 0 0 1rem 1rem #521c1c
+;
+}
+
+.cb{
+    width:25%;
+    padding:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align:center;
+    margin-left:40%;   
+    margin-top:5%;
+    border:3px solid #d50000;
+    background-color:#141414;
+}
+
+.iconteiner{
+    width:55%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align:center;
+    margin-left:24%;   
+    margin-top:5%;
+    /*background-color: #161515;
+    box-shadow:0 0 5rem 1.5rem #444343;*/
+}
+
+.cards{
+    margin:0.5%;
+}
+
+/*botao*/
+.B {
+    padding: 0.8em 1.8em;
+    border: 2px solid #b91616;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #b91616;
+   }
+   
+   .B::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #b91616;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .B:hover::before {
+    width: 105%;
+   }
+   
+   .B:hover {
+    color: #111;
+   }
+   
+
+   
